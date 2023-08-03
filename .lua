@@ -42,14 +42,12 @@ RLoading.Name = "RizzHub"
 RLoading.Parent = game:GetService("CoreGui")
 RLoading.IgnoreGuiInset = true
 
-local function centerMainFrame()
-    local screenCenterX = workspace.CurrentCamera.ViewportSize.X / 2
-    local screenCenterY = workspace.CurrentCamera.ViewportSize.Y / 2
-    local mainFrameWidth = RMainFrame.Size.X.Offset
-    local mainFrameHeight = RMainFrame.Size.Y.Offset
+RMainFrame.Name = "RMainFrame"
+RMainFrame.Parent = RLoading
+RMainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+RMainFrame.BorderSizePixel = 0
+RMainFrame.Size = UDim2.new(1, 0, 1, 0)
 
-    RMainFrame.Position = UDim2.new(0.5, -mainFrameWidth / 2, 0.5, -mainFrameHeight / 2)
-end
 RTitle.Name = "RTitle"
 RTitle.Parent = RMainFrame
 RTitle.AnchorPoint = Vector2.new(0, 0)
