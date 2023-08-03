@@ -30,14 +30,14 @@ local leave = Instance.new("TextLabel");
 local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint");
 local EndSequence = Instance.new("Frame");
 if _G.ScriptName == nil and _G.FirstText == nil and _G.SecondText == nil and _G.ThirdText == nil and _G.WaitingTime == nil then
-	_G.ScriptName = "Rizz Scriptz";
+	_G.ScriptName = "GOOD SCRIPT";
 	_G.FirstText = "Preparing Script...";
 	_G.SecondText = "Loading Script...";
 	_G.ThirdText = "Almost Done...";
 	_G.WaitingTime = 180;
 end
 ;
-RLoading.Name = "RizzHub";
+RLoading.Name = "GOOD";
 RLoading.Parent = game:GetService("CoreGui");
 RLoading.IgnoreGuiInset = true;
 RMainFrame.Name = "RMainFrame";
@@ -59,7 +59,7 @@ RTitle.TextScaled = true;
 RTitle.TextSize = 0;
 RTitle.TextWrapped = true;
 UITextSizeConstraint.Parent = RTitle;
-UITextSizeConstraint.MaxTextSize = 88;
+UITextSizeConstraint.MaxTextSize = 190;
 Dots.Name = "Dots";
 Dots.Parent = RMainFrame;
 Dots.AnchorPoint = Vector2.new(0, 0);
